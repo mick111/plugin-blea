@@ -112,6 +112,23 @@
 					"mobile": "line"
 				}
             },
+            {
+                "name": "Volume",
+                "type": "info",
+                "subtype": "numeric",
+                "display": {
+					"icon": "<i class=\"fas fa-water\"><\/i>",
+					"generic_type": "DONT"
+				},
+                "isVisible": 0,
+                "isHistorized": 0,
+                "unite": "%",
+                "logicalId": "volume",
+				"template": {
+					"dashboard": "line",
+					"mobile": "line"
+				}
+            },
 			{
                 "name": "Air température (calibrée)",
                 "type": "info",
@@ -179,6 +196,18 @@
 					"dashboard": "line",
 					"mobile": "line"
 				}
+            },
+            {
+                "name": "Identification",
+                "type": "action",
+                "subtype": "other",
+                "display": {
+                    "generic_type": "GENERIC"
+                },
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "",
+                "logicalId": "name:Parrot pot,handle:0x003f,value:11"
             },
             {
                 "name": "Refresh",
