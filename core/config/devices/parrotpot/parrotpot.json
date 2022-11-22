@@ -219,7 +219,10 @@
                 "subtype": "other",
                 "isVisible": 1,
                 "unite": "s",
-                "logicalId": "name:Parrot pot,handle:0x89,value:0500"
+		"logicalId": "name:Parrot pot,handle:0x89,value:#listValue#00",
+                "configuration" : {
+                    "listValue" : "05|5;0a|10;0f|15;14|20"
+                }
 	    },
             {
                 "name": "Refresh",
