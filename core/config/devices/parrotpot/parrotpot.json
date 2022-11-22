@@ -212,7 +212,7 @@
             {
                 "name": "Arrosage 5s",
                 "type": "action",
-		    {
+		"display": {
 					"icon": "<i class=\"fas fa-sprinkler\"><\/i>",
 					"generic_type": "DONT"
 				},
