@@ -210,7 +210,7 @@
                 "logicalId": "name:Parrot pot,handle:0x003f,value:11"
             },
             {
-                "name": "Arrosage 5s",
+                "name": "Arrosage",
                 "type": "action",
 		"display": {
                     "icon": "<i class=\"fas fa-droplet\"><\/i>",
