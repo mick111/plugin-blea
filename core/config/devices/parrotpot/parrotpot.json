@@ -213,10 +213,10 @@
                 "name": "Arrosage 5s",
                 "type": "action",
 		"display": {
-					"icon": "<i class=\"fas fa-sprinkler\"><\/i>",
-					"generic_type": "DONT"
-				},
-                "subtype": "other",
+                    "icon": "<i class=\"fas fa-droplet\"><\/i>",
+                    "generic_type": "DONT"
+                },
+                "subtype": "select",
                 "isVisible": 1,
                 "unite": "s",
 		"logicalId": "name:Parrot pot,handle:0x89,value:#listValue#00",
