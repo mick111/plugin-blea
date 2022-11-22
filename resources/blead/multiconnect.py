@@ -79,7 +79,7 @@ class Connector():
 		logging.debug('CONNECTOR------Disconnected...'+ str(self.mac))
 
 	def readCharacteristic(self,handle,retry=1,type='public'):
-		logging.debug('CONNECTOR------Reading Characteristic...'+ str(self.mac))
+		logging.debug(f'CONNECTOR------Reading Characteristic {handle}...'+ str(self.mac))
 		ireadCharacteristic=0
 		while True:
 			ireadCharacteristic = ireadCharacteristic + 1
@@ -95,7 +95,7 @@ class Connector():
 					return False
 				logging.debug('CONNECTOR------Retry connection '+ str(self.mac))
 				self.connect(type=type)
-		logging.debug('CONNECTOR------Characteristic Readen .... ' + str(self.mac))
+		logging.debug(f'CONNECTOR------Characteristic {handle} Readen: {result} ... ' + str(self.mac))
 		return result
 
 	def writeCharacteristic(self,handle,value,retry=1,response=False,type='public'):
