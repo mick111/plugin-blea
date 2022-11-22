@@ -210,6 +210,18 @@
                 "logicalId": "name:Parrot pot,handle:0x003f,value:11"
             },
             {
+                "name": "Arrosage 5s",
+                "type": "action",
+		    {
+					"icon": "<i class=\"fas fa-sprinkler\"><\/i>",
+					"generic_type": "DONT"
+				},
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "s",
+                "logicalId": "name:Parrot pot,handle:0x89,value:0500"
+	    },
+            {
                 "name": "Refresh",
                 "type": "action",
                 "subtype": "other",
